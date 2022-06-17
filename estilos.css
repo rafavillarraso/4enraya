@@ -1,0 +1,22 @@
+.contenedor, .contenedor2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contenedor button {
+   width: 75px;
+   height: 75px;
+   margin: 5px;
+   font-size: larger;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contenedor2 button {
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: aliceblue;
+}

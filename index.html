@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="principal.js"></script>
+    <title>Conecta 4 V1.0</title>
+</head>
+<body>
+    <div><h2>Conecta 4</h2></div>
+    <div style="margin-bottom: 30px;">
+    <table class="contenedor">
+        <tr>
+            <th><button class="casilla" id="1" onclick="tirada(1)"></button></th>
+            <th><button class="casilla" id="2" onclick="tirada(2)"></button></th>
+            <th><button class="casilla" id="3" onclick="tirada(3)"></button></th>
+            <th><button class="casilla" id="4" onclick="tirada(4)"></button></th>
+            <th><button class="casilla" id="5" onclick="tirada(5)"></button></th>
+            <th><button class="casilla" id="6" onclick="tirada(6)"></button></th>
+            <th><button class="casilla" id="7" onclick="tirada(7)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="8" onclick="tirada(8)"></button></th>
+            <th><button class="casilla" id="9" onclick="tirada(9)"></button></th>
+            <th><button class="casilla" id="10" onclick="tirada(10)"></button></th>
+            <th><button class="casilla" id="11" onclick="tirada(11)"></button></th>
+            <th><button class="casilla" id="12" onclick="tirada(12)"></button></th>
+            <th><button class="casilla" id="13" onclick="tirada(13)"></button></th>
+            <th><button class="casilla" id="14" onclick="tirada(14)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="15" onclick="tirada(15)"></button></th>
+            <th><button class="casilla" id="16" onclick="tirada(16)"></button></th>
+            <th><button class="casilla" id="17" onclick="tirada(17)"></button></th>
+            <th><button class="casilla" id="18" onclick="tirada(18)"></button></th>
+            <th><button class="casilla" id="19" onclick="tirada(19)"></button></th>
+            <th><button class="casilla" id="20" onclick="tirada(20)"></button></th>
+            <th><button class="casilla" id="21" onclick="tirada(21)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="22" onclick="tirada(22)"></button></th>
+            <th><button class="casilla" id="23" onclick="tirada(23)"></button></th>
+            <th><button class="casilla" id="24" onclick="tirada(24)"></button></th>
+            <th><button class="casilla" id="25" onclick="tirada(25)"></button></th>
+            <th><button class="casilla" id="26" onclick="tirada(26)"></button></th>
+            <th><button class="casilla" id="27" onclick="tirada(27)"></button></th>
+            <th><button class="casilla" id="28" onclick="tirada(28)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="29" onclick="tirada(29)"></button></th>
+            <th><button class="casilla" id="30" onclick="tirada(30)"></button></th>
+            <th><button class="casilla" id="31" onclick="tirada(31)"></button></th>
+            <th><button class="casilla" id="32" onclick="tirada(32)"></button></th>
+            <th><button class="casilla" id="33" onclick="tirada(33)"></button></th>
+            <th><button class="casilla" id="34" onclick="tirada(34)"></button></th>
+            <th><button class="casilla" id="35" onclick="tirada(35)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="36" onclick="tirada(36)"></button></th>
+            <th><button class="casilla" id="37" onclick="tirada(37)"></button></th>
+            <th><button class="casilla" id="38" onclick="tirada(38)"></button></th>
+            <th><button class="casilla" id="39" onclick="tirada(39)"></button></th>
+            <th><button class="casilla" id="40" onclick="tirada(40)"></button></th>
+            <th><button class="casilla" id="41" onclick="tirada(41)"></button></th>
+            <th><button class="casilla" id="42" onclick="tirada(42)"></button></th>
+        </tr>
+        <tr>
+            <th><button class="casilla" id="43" onclick="tirada(43)"></button></th>
+            <th><button class="casilla" id="44" onclick="tirada(44)"></button></th>
+            <th><button class="casilla" id="45" onclick="tirada(45)"></button></th>
+            <th><button class="casilla" id="46" onclick="tirada(46)"></button></th>
+            <th><button class="casilla" id="47" onclick="tirada(47)"></button></th>
+            <th><button class="casilla" id="48" onclick="tirada(48)"></button></th>
+            <th><button class="casilla" id="49" onclick="tirada(49)"></button></th>
+        </tr>
+    </table>
+    </div>
+    <section class="contenedor2">
+        <div><span style="margin-right: 10px;">Jugador</span><span id="marcador1">0</span></div>
+        <div style="margin-top: 10px;"><span style="margin-right: 10px;">Máquina</span><span id="marcador2">0</span></div>
+        <button onclick="borrarTodo()">Clear</button>
+    </section>
+</body>
+</html>
