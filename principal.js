@@ -163,11 +163,9 @@ function tirada (numero) {
     if (comprobarGanador()) {
         alert("Has ganado");
     } else {
-    
         tiradaMaquina();
         if (comprobarGanador()) alert("Has perdido");
     }
-    
 }
 
 function borrarTodo() {
