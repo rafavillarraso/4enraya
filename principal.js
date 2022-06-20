@@ -103,13 +103,13 @@ function comprobarDiagonal (n) {
         if (cuatroEnRaya (b[0],b[1],b[2],b[3])) return true;
     } else if (n==1 || n==2 || n==3 || n==8 || n==15 || n==22) {
         c=diagonalIzda(n);
-        for (i=0;i<c.length-3;i++) {
+        for (var i=0;i<c.length-3;i++) {
             if (cuatroEnRaya(c[i],c[i+1],c[i+2],c[i+3])) return true;
         }
     } else if (n==5 || n==6 || n==7 || n==14 || n==21 || n==28) {
         d=diagonalDcha(n);
-        for (i=0;i<d.length-3;i++) {
-            if (cuatroEnRaya(d[i],d[i+1],d[i+2],d[i+3])) return true;
+        for (var j=0;j<d.length-3;j++) {
+            if (cuatroEnRaya(d[j],d[j+1],d[j+2],d[j+3])) return true;
         }
     } 
     return false;
@@ -140,7 +140,7 @@ function comprobarGanador() {
         else if (comprobarColumna(j)) return true;
     }
     var inicios = [1,2,3,4,5,6,7,8,14,15,21,22,28];
-    for (l=0; l<inicios.length-1;l++) {
+    for (l=0; l<inicios.length;l++) {
         if (comprobarDiagonal(inicios[l])) return true;
     }
     return false;
